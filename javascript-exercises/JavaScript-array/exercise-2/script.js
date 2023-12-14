@@ -5,5 +5,3 @@ function cloneArray(array) {
   }
   return result;
 }
-
-console.log(cloneArray([1, 2, [4, 0]]));
