@@ -5,5 +5,3 @@ function isString(parameter) {
     return false;
   }
 }
-
-console.log(isString(90));
