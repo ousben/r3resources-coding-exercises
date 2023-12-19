@@ -28,10 +28,10 @@ class BankAccount {
   }
 }
 
-const oussama = new BankAccount("098765", "Oussama", 50);
-const tim = new BankAccount("09876543", "Tim", 50);
+const john = new BankAccount("098765", "John", 50);
+const james = new BankAccount("09876543", "James", 50);
 
-console.log(oussama.deposit(5));
-console.log(tim.withdraw(6));
+console.log(john.deposit(5));
+console.log(james.withdraw(6));
 
-console.log(oussama.transfer(tim, 9));
+console.log(john.transfer(james, 9));
