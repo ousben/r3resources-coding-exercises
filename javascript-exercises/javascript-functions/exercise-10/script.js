@@ -10,5 +10,3 @@ function identityMatrix(num) {
     console.log("---------")
   }
 }
-
-identityMatrix(10);
