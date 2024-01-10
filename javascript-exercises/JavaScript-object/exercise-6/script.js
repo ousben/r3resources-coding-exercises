@@ -11,5 +11,3 @@ function bubbleSort(array) {
   }
   return array;
 }
-
-console.log(bubbleSort([1, 7, 18, 156, 2]));
